@@ -24,8 +24,8 @@ jobs:
         run: pip install black
 
       - name: Run black --check .
-        continue-on-error: true
         run: black --check .
+        continue-on-error: true
 
       - name: If needed, commit black changes to the pull request
         if: failure()
