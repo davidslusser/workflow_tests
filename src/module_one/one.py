@@ -1,6 +1,6 @@
 """this is module one"""
 
 
-def add(a, b) -> int:
+def add(var1, var2) -> int:
     """ do some math """
-    return a + b
+    return var1 + var2

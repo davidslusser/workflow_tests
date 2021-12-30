@@ -1,7 +1,12 @@
 """ just a test for workflows"""
 
 import sys
-import os 
+import os
+
+
+def no_op():
+    """a no-op function"""
+    print(os.getcwd())
 
 
 def main():

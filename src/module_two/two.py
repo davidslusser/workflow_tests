@@ -1,5 +1,5 @@
 '''This is module two  '''
 
-def subtract(a, b) -> int:
+def subtract(var1, var2) -> int:
     """ do some math"""
-    return a -b 
+    return var1 -var2
