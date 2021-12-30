@@ -1,4 +1,4 @@
 on: push
 jobs:
   lint:
-    uses: davidslusser/actions/.github/workflows/pylint@main
+    uses: davidslusser/actions/.github/workflows/pylint.yaml@main
