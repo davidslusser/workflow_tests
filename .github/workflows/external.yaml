@@ -5,4 +5,4 @@ jobs:
     name: test external linter
     steps:
     - name: run lint
-      uses: davidslusser/actions/pylint@main
+      uses: davidslusser/actions/.github/workflows/pylint@main
