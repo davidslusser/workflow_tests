@@ -1,10 +1,11 @@
-""" just a test for workflows """
+""" just a test for workflows"""
 
 import sys
+import os 
 
 
 def main():
-    """ script entry point """
+    """script entry point """
     print("in main()")
 
 
