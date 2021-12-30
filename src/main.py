@@ -10,9 +10,9 @@ def no_op():
 
 
 def main():
-    """script entry point """
+    """script entry point"""
     print("in main()")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main())
