@@ -1,0 +1,8 @@
+on: push
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: test external linter
+    steps:
+      - run lint
+      uses: davidslusser/actions

@@ -24,7 +24,9 @@ jobs:
         run: pip install black
 
       - name: run black
-        run: black .
+        run: |
+          cd src
+          black .
 
       - name: If needed, commit black changes to the pull request
         run: |
