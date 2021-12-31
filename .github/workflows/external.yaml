@@ -9,3 +9,4 @@ jobs:
     uses: davidslusser/actions/.github/workflows/black.yaml@main
     with:
       src: "src"
+      py-version: "3.10"
