@@ -1,0 +1,8 @@
+on: [push]
+
+jobs:
+  black:
+    uses: davidslusser/actions/.github/workflows/bandit.yaml@main
+    with:
+      src: "src"
+      py-version: "3.10"
