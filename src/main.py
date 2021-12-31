@@ -5,7 +5,7 @@ import os
 
 
 def no_op():
-    """a no-op function to test"""
+    """a no-op function"""
     print(os.getcwd())
 
 
