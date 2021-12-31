@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   lint:
-    uses: davidslusser/actions/pylint.yaml@main
+    uses: davidslusser/actions/.github/workflows/pylint.yaml@main
     with:
       src: "src"
   black:
