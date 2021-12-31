@@ -10,3 +10,5 @@ jobs:
     with:
       src: "src"
       py-version: "3.10"
+  test:
+    uses: davidslusser/actions/.github/workflows/pytest.yaml@main
