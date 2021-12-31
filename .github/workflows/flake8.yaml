@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  lint:
+  flake8:
     uses: davidslusser/actions/.github/workflows/flake8.yaml@main
     with:
       src: "src"

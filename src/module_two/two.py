@@ -5,5 +5,4 @@ def subtract(var1: int, var2: int) -> int:
     """do some math"""
     msg = "this is some string"
     print(msg)
-    # return var1 - var2
-    return "hello"
+    return var1 - var2

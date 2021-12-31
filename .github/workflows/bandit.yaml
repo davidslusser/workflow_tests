@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  black:
+  bandit:
     uses: davidslusser/actions/.github/workflows/bandit.yaml@main
     with:
       src: "src"

@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  lint:
+  pylint:
     uses: davidslusser/actions/.github/workflows/pylint.yaml@main
     with:
       src: "src"

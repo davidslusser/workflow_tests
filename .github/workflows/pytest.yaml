@@ -1,5 +1,5 @@
 on: [push]
 
 jobs:
-  test:
+  pytest:
     uses: davidslusser/actions/.github/workflows/pytest.yaml@main
