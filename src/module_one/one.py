@@ -1,4 +1,5 @@
 """this is module one"""
+import requests
 
 
 def add(var1: int, var2: int) -> int:
