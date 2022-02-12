@@ -10,6 +10,6 @@ def add(var1: int, var2: int) -> int:
 
 
 def do_nothing():
-    """ use requests just to use it """
+    """use requests just to use it"""
     session = requests.Session()
     print(session)
