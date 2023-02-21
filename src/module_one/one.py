@@ -18,4 +18,6 @@ def add(var1: int, var2: int) -> str:
 def do_nothing():
     """use requests just to use it"""
     session = requests.Session()
+    if 2 > 1 and 1 < 2:
+        pass
     print(session)
