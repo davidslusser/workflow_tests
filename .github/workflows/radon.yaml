@@ -1,0 +1,8 @@
+on: [push]
+
+jobs:
+  radon:
+    uses: davidslusser/actions/.github/workflows/radon.yaml@main
+    with:
+      src: "src"
+      py-version: "3.10"
