@@ -5,13 +5,13 @@ import os
 
 def no_op():
     """ a no-op function """
-    # this is an inline comment
+     #  this is an inline comment
 
     print(os.getcwd())
 
 
 def main():
-    """script entry point"""
+    """  script entry point """
     print("in main()")
     print('still in main()')
 

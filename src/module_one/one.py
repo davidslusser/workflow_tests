@@ -6,7 +6,7 @@ SOME_KEY = 'AS5D3GLK3JHS47SAI8DSA8F'
 
 def add(var1: int, var2: int) -> str:
     """do some math"""
-    msg = "this is string one"
+    msg = 'this is string one'
     pwd = "some_password"
     some_key = "mykey"
     access_key = "22093740239670237024843420327"
@@ -21,3 +21,7 @@ def do_nothing():
     if 2 > 1 and 1 < 2:
         pass
     print(session)
+
+
+def no_op():
+    pass
