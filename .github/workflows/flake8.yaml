@@ -5,3 +5,4 @@ jobs:
     uses: davidslusser/actions/.github/workflows/flake8.yaml@update_checkout
     with:
       src: "src"
+      pip_install_command: "pip install .[dev]"

@@ -3,3 +3,6 @@ on: [push]
 jobs:
   pytest:
     uses: davidslusser/actions/.github/workflows/pytest.yaml@update_checkout
+    with:
+      src: "tests"
+      pip_install_command: "pip install .[dev]"
