@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   mypy:
-    uses: davidslusser/actions/.github/workflows/mypy.yaml@main
+    uses: davidslusser/actions/.github/workflows/mypy.yaml@update_checkout
     with:
       src: "src"
       dependancies: "pip install .[dev]"

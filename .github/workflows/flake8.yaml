@@ -2,6 +2,6 @@ on: [push]
 
 jobs:
   flake8:
-    uses: davidslusser/actions/.github/workflows/flake8.yaml@main
+    uses: davidslusser/actions/.github/workflows/flake8.yaml@update_checkout
     with:
       src: "src"

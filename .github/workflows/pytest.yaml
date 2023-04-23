@@ -2,4 +2,4 @@ on: [push]
 
 jobs:
   pytest:
-    uses: davidslusser/actions/.github/workflows/pytest.yaml@main
+    uses: davidslusser/actions/.github/workflows/pytest.yaml@update_checkout

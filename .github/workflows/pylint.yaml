@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   pylint:
-    uses: davidslusser/actions/.github/workflows/pylint.yaml@main
+    uses: davidslusser/actions/.github/workflows/pylint.yaml@update_checkout
     with:
       src: "src"
       dependancies: "pip install .[dev]"
