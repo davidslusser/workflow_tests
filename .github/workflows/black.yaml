@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  black:
+    uses: davidslusser/actions/.github/workflows/black.yaml@main
+    with:
+      src: "src"
+      py-version: "3.10"
+      pip_install_command: "pip install .[dev]"
