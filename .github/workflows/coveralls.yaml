@@ -3,3 +3,4 @@ on: [push]
 jobs:
   pytest:
     uses: davidslusser/actions_python_coveralls@main
+
