@@ -2,4 +2,4 @@ on: [push]
 
 jobs:
   pytest:
-    uses: davidslusser/actions_python_coveralls/.github/workflows/coveralls.yaml@test
+    uses: davidslusser/actions_python_coveralls/.github/workflows/coveralls.yaml@main
