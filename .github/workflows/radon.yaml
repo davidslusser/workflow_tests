@@ -7,5 +7,3 @@ jobs:
     steps:
       - name: actions_python_radon
         uses: davidslusser/actions_python_radon@test
-        with:
-          src: "src"
