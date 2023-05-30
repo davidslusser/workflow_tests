@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+  radon:
+    runs-on: ubuntu-latest
+    name: "radon"
+    steps:
+      - name: actions_python_radon
+        uses: davidslusser/actions_python_radon@main
+        with:
+          src: "src"

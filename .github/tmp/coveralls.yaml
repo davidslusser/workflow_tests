@@ -11,5 +11,4 @@ jobs:
           src: "src"
           options: "--cov=src"
           pip_install_command: "pip install -e .[dev]"
-          python_version: "3.9"
           coveralls_repo_token: ${{ secrets.COVERALLS_REPO_TOKEN }}
