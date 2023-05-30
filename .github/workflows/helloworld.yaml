@@ -10,6 +10,5 @@ jobs:
         uses: davidslusser/hello-world-composite-action@main
         with:
           who-to-greet: 'Mona the Octocat'
-          pip_install_command: "pip install .[dev]"
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
