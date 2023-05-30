@@ -10,5 +10,7 @@ jobs:
         uses: davidslusser/hello-world-composite-action@main
         with:
           who-to-greet: 'Mona the Octocat'
+          src: "src"
+          coveralls_repo_token: ${{ secrets.COVERALLS_REPO_TOKEN }}
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
