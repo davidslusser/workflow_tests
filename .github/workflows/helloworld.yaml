@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: "coveralls"
     steps:
-      - uses: davidslusser/actions_python_coveralls@test
+      - name: actions_python_coveralls
+        uses: davidslusser/actions_python_coveralls@v1
         with:
           src: "src"
           options: "--cov=src"
