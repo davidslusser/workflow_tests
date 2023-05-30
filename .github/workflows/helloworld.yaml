@@ -8,5 +8,6 @@ jobs:
       - uses: davidslusser/hello-world-composite-action@main
         with:
           src: "src"
+          options: "--cov=src"
           pip_install_command: "pip install -e .[dev]"
           coveralls_repo_token: ${{ secrets.COVERALLS_REPO_TOKEN }}
