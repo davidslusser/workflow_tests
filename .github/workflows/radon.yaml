@@ -8,4 +8,5 @@ jobs:
       - uses: actions/checkout@v2 
       - name: "test docker action"
         uses: davidslusser/actions_python_radon@test
-
+        with:
+          src: "src"
