@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: "radon"
     steps:
+      - uses: actions/checkout@v3
       - name: "test docker action"
         uses: davidslusser/actions_python_radon@test
         with:
