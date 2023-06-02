@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: "mypy"
     steps:
-      - uses: davidslusser/actions_python_mypy@main
+      - uses: davidslusser/actions_python_mypy@v1.0.0
         with:
           src: "src"
           options: "-v"

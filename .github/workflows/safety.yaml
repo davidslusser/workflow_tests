@@ -1,0 +1,8 @@
+on: [push]
+
+jobs:
+  mypy:
+    runs-on: ubuntu-latest
+    name: "safety"
+    steps:
+      - uses: davidslusser/actions_python_safety@test
