@@ -13,3 +13,5 @@ def do_nothing():
     """use requests just to use it"""
     session = requests.Session()
     print(session)
+
+import collections
