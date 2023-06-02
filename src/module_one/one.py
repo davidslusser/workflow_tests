@@ -14,4 +14,3 @@ def do_nothing():
     session = requests.Session()
     print(session)
 
-import collections
