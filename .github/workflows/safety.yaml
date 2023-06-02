@@ -6,3 +6,6 @@ jobs:
     name: "safety"
     steps:
       - uses: davidslusser/actions_python_safety@test
+        with:
+            pip_install_command: "pip install -e .[dev]"
+            python_version: "3.9"
