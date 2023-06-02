@@ -6,6 +6,6 @@ jobs:
     name: "ruff"
     steps:
       - name: actions_python_ruff
-      - uses: davidslusser/actions_python_ruff@main
+        uses: davidslusser/actions_python_ruff@main
         with:
             src: "src"
