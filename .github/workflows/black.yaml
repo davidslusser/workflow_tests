@@ -1,0 +1,8 @@
+on: [push]
+
+jobs:
+  black:
+    runs-on: ubuntu-latest
+    name: "black"
+    steps:
+      - uses: davidslusser/actions_python_black@test
