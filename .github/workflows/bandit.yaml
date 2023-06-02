@@ -1,8 +1,0 @@
-on: [push]
-
-jobs:
-  bandit:
-    runs-on: ubuntu-latest
-    name: "bandit"
-    steps:
-      - uses: davidslusser/actions_python_bandit@v1.0.0
