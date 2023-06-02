@@ -8,6 +8,5 @@ jobs:
       - uses: davidslusser/actions_python_mypy@main
         with:
           src: "src"
-          options: "--cov=src"
-          pip_install_command: "pip install -e .[dev]"
+          options: ""
           python_version: "3.9"

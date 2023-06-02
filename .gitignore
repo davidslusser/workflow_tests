@@ -115,3 +115,4 @@ misc/pgs-headers
 misc/in-use/out
 misc/in-use/headers
 *.sqlite3
+.github/_tmp
