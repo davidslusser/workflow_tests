@@ -6,3 +6,5 @@ jobs:
     name: "black"
     steps:
       - uses: davidslusser/actions_python_black@test
+        with:
+            src: "src"
