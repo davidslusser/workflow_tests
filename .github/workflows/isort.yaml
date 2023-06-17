@@ -1,10 +1,10 @@
 on: [push]
 
 jobs:
-  black:
+  isort:
     runs-on: ubuntu-latest
-    name: "black"
+    name: "isort"
     steps:
-      - uses: davidslusser/actions_python_black@test
+      - uses: davidslusser/actions_python_isort@test
         with:
             src: "src"
