@@ -1,9 +1,9 @@
 on: [push]
 
 jobs:
-  isort:
+  pylint:
     runs-on: ubuntu-latest
-    name: "isort"
+    name: "pylint"
     steps:
       - uses: davidslusser/actions_python_pylint@test
         with:
