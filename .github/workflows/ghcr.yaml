@@ -1,0 +1,15 @@
+name: Create and publish a Docker image
+
+on: [push]
+
+jobs:
+  ghcr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: davidslusser/actions_docker_ghcr@initial
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
