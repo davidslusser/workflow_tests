@@ -2,6 +2,10 @@ name: Create and publish a Docker image
 
 on: [push]
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
 jobs:
   ghcr:
     runs-on: ubuntu-latest
