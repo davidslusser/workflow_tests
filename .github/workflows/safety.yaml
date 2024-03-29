@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  mypy:
+    runs-on: ubuntu-latest
+    name: "safety"
+    steps:
+      - uses: davidslusser/actions_python_safety@update_options
+        with:
+          options: "-i 65213"
+          pip_install_command: "pip install -e .[dev]"
+          python_version: "3.11"
