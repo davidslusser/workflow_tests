@@ -9,5 +9,4 @@ jobs:
         uses: davidslusser/actions_python_ruff@2-bug-use-ruff-check-now
         with:
             src: "src"
-            options: "-v"
             python_version: "3.11"
