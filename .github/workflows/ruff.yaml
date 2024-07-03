@@ -8,6 +8,6 @@ jobs:
       - name: actions_python_ruff
         uses: davidslusser/actions_python_ruff@2-bug-use-ruff-check-now
         with:
-            src: "src/django_project"
+            src: "src"
             options: "-v"
             python_version: "3.11"
