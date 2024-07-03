@@ -6,7 +6,7 @@ jobs:
     name: "ruff"
     steps:
       - name: actions_python_ruff
-        uses: davidslusser/actions_python_ruff@latest
+        uses: davidslusser/actions_python_ruff@main
         with:
             src: "src"
             python_version: "3.11"
