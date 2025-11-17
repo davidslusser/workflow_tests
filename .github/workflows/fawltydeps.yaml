@@ -7,5 +7,5 @@ jobs:
     steps:
       - uses: davidslusser/actions_python_fawltydeps@main
         with:
-          pip_install_command: "pip install -e .[dev] && pip install fawltydeps"
+          pip_install_command: "pip install fawltydeps"
           python_version: "3.13"
