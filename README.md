@@ -9,3 +9,4 @@ test some github actions
 |Black|code formatting|![Black](https://github.com/davidslusser/workflow_tests/actions/workflows/black.yaml/badge.svg)|
 |Bandit|security checks|![Bandit](https://github.com/davidslusser/workflow_tests/actions/workflows/bandit.yaml/badge.svg)|
 |Pytest|unit testing|![Pytest](https://github.com/davidslusser/workflow_tests/actions/workflows/pytest.yaml/badge.svg)|
+|Safety|package vulnerability checks|![Safety](https://github.com/davidslusser/workflow_tests/actions/workflows/safety.yaml/badge.svg)|

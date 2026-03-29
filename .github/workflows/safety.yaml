@@ -1,0 +1,7 @@
+on: [push]
+
+jobs:
+  safety:
+    uses: davidslusser/actions/.github/workflows/safety.yaml@main
+    with:
+      pip_install_command: "pip install -U setuptools; pip install safety"
